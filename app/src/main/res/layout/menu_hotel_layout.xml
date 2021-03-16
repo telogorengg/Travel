@@ -1,0 +1,464 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#ffffff"
+    tools:context="com.example.ajai.betravel.MenuHotel.menu_hotel">
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/relativeLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:context="com.example.ajai.betravel.MenuHotel.menu_hotel" >
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/hotel_toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="?attr/actionBarSize"
+            android:background="@color/colorPrimary"
+            android:theme="@style/AppTheme.AppBarOverlay" />
+    </RelativeLayout>
+
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <!-- Hotel Santika Bengkulu -->
+            <android.support.v7.widget.CardView
+                android:id="@+id/hotel_santikabkl"
+                android:layout_width="match_parent"
+                android:layout_height="180dp"
+                android:layout_marginTop="25dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="25dp"
+                android:clickable="true"
+                android:foreground="?attr/selectableItemBackground"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="4.5dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center_horizontal|center_vertical"
+                    android:layout_margin="15dp"
+                    android:orientation="horizontal"
+                    android:weightSum="10">
+
+                    <ImageView
+                        android:id="@+id/hotel_santikabklimage1"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="4"
+                        android:layout_alignParentStart="true"
+                        android:layout_centerVertical="true"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/hotel_santika" />
+
+                    <RelativeLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="6"
+                        android:layout_marginLeft="15dp">
+
+                        <TextView
+                            android:id="@+id/hotel_santikabkltext1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentStart="true"
+                            android:layout_alignParentTop="true"
+                            android:fontFamily="@font/roboto"
+                            android:text="Hotel Santika"
+                            android:textColor="@android:color/black"
+                            android:textSize="18sp" />
+
+                        <TextView
+                            android:id="@+id/hotel_santikabkltext2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignStart="@+id/hotel_santikabkltext1"
+                            android:layout_below="@+id/hotel_santikabkltext1"
+                            android:layout_marginTop="12dp"
+                            android:fontFamily="@font/roboto"
+                            android:text="Sawah Lebar, Ratu Samban" />
+
+                        <ImageView
+                            android:id="@+id/hotel_santikabkl_bintang"
+                            android:layout_width="70dp"
+                            android:layout_height="20dp"
+                            android:layout_alignStart="@+id/hotel_santikabkltext2"
+                            android:layout_centerVertical="true"
+                            android:layout_marginTop="15dp"
+                            android:scaleType="fitXY"
+                            app:srcCompat="@drawable/star" />
+
+                        <TextView
+                            android:id="@+id/hotel_santikabkltext3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_above="@+id/hotel_santikabkltext5"
+                            android:layout_alignParentStart="true"
+                            android:layout_marginBottom="5dp"
+                            android:fontFamily="roboto"
+                            android:text="Rp 600.000"
+                            android:textColor="@color/colorPrimary"
+                            android:textSize="18sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/hotel_santikabkltext4"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignBottom="@+id/hotel_santikabkltext3"
+                            android:layout_toEndOf="@+id/hotel_santikabkltext3"
+                            android:fontFamily="roboto"
+                            android:text="/kamar/malam"
+                            android:textSize="12sp" />
+
+                        <TextView
+                            android:id="@+id/hotel_santikabkltext5"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentBottom="true"
+                            android:layout_alignStart="@+id/hotel_santikabkltext3"
+                            android:fontFamily="roboto"
+                            android:text="Termasuk pajak" />
+                    </RelativeLayout>
+
+
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+
+            <!-- Hotel Horizon -->
+            <android.support.v7.widget.CardView
+                android:id="@+id/hotel_horizonbkl"
+                android:layout_width="match_parent"
+                android:layout_height="180dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="25dp"
+                android:clickable="true"
+                android:foreground="?attr/selectableItemBackground"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="4.5dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center_horizontal|center_vertical"
+                    android:layout_margin="15dp"
+                    android:orientation="horizontal"
+                    android:weightSum="10">
+
+                    <ImageView
+                        android:id="@+id/hotel_horizonbklimage"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="4"
+                        android:layout_alignParentStart="true"
+                        android:layout_centerVertical="true"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/hotel_horizon" />
+
+                    <RelativeLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="6"
+                        android:layout_marginLeft="15dp">
+
+                        <TextView
+                            android:id="@+id/hotel_horizonbkltext1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentStart="true"
+                            android:layout_alignParentTop="true"
+                            android:fontFamily="@font/roboto"
+                            android:text="Hotel Horizon"
+                            android:textColor="@android:color/black"
+                            android:textSize="18sp" />
+
+                        <TextView
+                            android:id="@+id/hotel_horizonbkltext2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignStart="@+id/hotel_horizonbkltext1"
+                            android:layout_below="@+id/hotel_horizonbkltext1"
+                            android:layout_marginTop="12dp"
+                            android:fontFamily="@font/roboto"
+                            android:text="Anggut Bawah, Ratu Samban" />
+
+                        <ImageView
+                            android:id="@+id/hotel_horizonbkl_bintang"
+                            android:layout_width="70dp"
+                            android:layout_height="20dp"
+                            android:layout_alignStart="@+id/hotel_horizonbkltext2"
+                            android:layout_centerVertical="true"
+                            android:layout_marginTop="15dp"
+                            android:scaleType="fitXY"
+                            app:srcCompat="@drawable/star" />
+
+                        <TextView
+                            android:id="@+id/hotel_horizonbkltext3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_above="@+id/hotel_horizonbkltext5"
+                            android:layout_alignParentStart="true"
+                            android:layout_marginBottom="5dp"
+                            android:fontFamily="@font/roboto"
+                            android:text="Rp 700.000"
+                            android:textColor="@color/colorPrimary"
+                            android:textSize="18sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/hotel_horizonbkltext4"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignBottom="@+id/hotel_horizonbkltext3"
+                            android:layout_toEndOf="@+id/hotel_horizonbkltext3"
+                            android:fontFamily="@font/roboto"
+                            android:text="/kamar/malam"
+                            android:textSize="12sp" />
+
+                        <TextView
+                            android:id="@+id/hotel_horizonbkltext5"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentBottom="true"
+                            android:layout_alignStart="@+id/hotel_horizonbkltext3"
+                            android:fontFamily="@font/roboto"
+                            android:text="Termasuk pajak" />
+                    </RelativeLayout>
+
+
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+
+            <!-- Hotel Sinar Sport -->
+            <android.support.v7.widget.CardView
+                android:id="@+id/hotel_sinarsportbkl"
+                android:layout_width="match_parent"
+                android:layout_height="180dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="25dp"
+                android:clickable="true"
+                android:foreground="?attr/selectableItemBackground"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="4.5dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center_horizontal|center_vertical"
+                    android:layout_margin="15dp"
+                    android:orientation="horizontal"
+                    android:weightSum="10">
+
+                    <ImageView
+                        android:id="@+id/hotel_sinarsportbklimage"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="4"
+                        android:layout_alignParentStart="true"
+                        android:layout_centerVertical="true"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/hotel_sinarsport" />
+
+                    <RelativeLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="6"
+                        android:layout_marginLeft="15dp">
+
+                        <TextView
+                            android:id="@+id/hotel_sinarsportbkltext1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentStart="true"
+                            android:layout_alignParentTop="true"
+                            android:fontFamily="@font/roboto"
+                            android:text="Hotel Sinar Sport"
+                            android:textColor="@android:color/black"
+                            android:textSize="18sp" />
+
+                        <TextView
+                            android:id="@+id/hotel_sinarsportbkltext2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignStart="@+id/hotel_sinarsportbkltext1"
+                            android:layout_below="@+id/hotel_sinarsportbkltext1"
+                            android:layout_marginTop="12dp"
+                            android:fontFamily="@font/roboto"
+                            android:text="Anggut Dalam, Ratu Samban" />
+
+                        <ImageView
+                            android:id="@+id/hotel_sinarsportbkl_bintang"
+                            android:layout_width="70dp"
+                            android:layout_height="20dp"
+                            android:layout_alignStart="@+id/hotel_sinarsportbkltext2"
+                            android:layout_centerVertical="true"
+                            android:layout_marginTop="15dp"
+                            android:scaleType="fitXY"
+                            app:srcCompat="@drawable/star" />
+
+                        <TextView
+                            android:id="@+id/hotel_sinarsportbkltext3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_above="@+id/hotel_sinarsportbkltext5"
+                            android:layout_alignParentStart="true"
+                            android:layout_marginBottom="5dp"
+                            android:fontFamily="roboto"
+                            android:text="Rp 500.000"
+                            android:textColor="@color/colorPrimary"
+                            android:textSize="18sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/hotel_sinarsportbkltext4"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignBottom="@+id/hotel_sinarsportbkltext3"
+                            android:layout_toEndOf="@+id/hotel_sinarsportbkltext3"
+                            android:fontFamily="roboto"
+                            android:text="/kamar/malam"
+                            android:textSize="12sp" />
+
+                        <TextView
+                            android:id="@+id/hotel_sinarsportbkltext5"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentBottom="true"
+                            android:layout_alignStart="@+id/hotel_sinarsportbkltext3"
+                            android:fontFamily="roboto"
+                            android:text="Termasuk pajak" />
+                    </RelativeLayout>
+
+
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+
+            <!-- Hotel Splash -->
+            <android.support.v7.widget.CardView
+                android:id="@+id/hotel_splashbkl"
+                android:layout_width="match_parent"
+                android:layout_height="180dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="25dp"
+                android:clickable="true"
+                android:foreground="?attr/selectableItemBackground"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="4.5dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center_horizontal|center_vertical"
+                    android:layout_margin="15dp"
+                    android:orientation="horizontal"
+                    android:weightSum="10">
+
+                    <ImageView
+                        android:id="@+id/hotel_splashbklimagee1"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="4"
+                        android:layout_alignParentStart="true"
+                        android:layout_centerVertical="true"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/hotel_splash" />
+
+                    <RelativeLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="6"
+                        android:layout_marginLeft="15dp">
+
+                        <TextView
+                            android:id="@+id/hotel_splashbkltext1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentStart="true"
+                            android:layout_alignParentTop="true"
+                            android:fontFamily="@font/roboto"
+                            android:text="Hotel Splash"
+                            android:textColor="@android:color/black"
+                            android:textSize="18sp" />
+
+                        <TextView
+                            android:id="@+id/hotel_splashbkltext2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignStart="@+id/hotel_splashbkltext1"
+                            android:layout_below="@+id/hotel_splashbkltext1"
+                            android:layout_marginTop="12dp"
+                            android:fontFamily="@font/roboto"
+                            android:text="Tengah Padang, Ratu Samban" />
+
+                        <ImageView
+                            android:id="@+id/hotel_splashbkl_bintang"
+                            android:layout_width="70dp"
+                            android:layout_height="20dp"
+                            android:layout_alignStart="@+id/hotel_splashbkltext2"
+                            android:layout_centerVertical="true"
+                            android:layout_marginTop="15dp"
+                            android:scaleType="fitXY"
+                            app:srcCompat="@drawable/star" />
+
+                        <TextView
+                            android:id="@+id/hotel_splashbkltext3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_above="@+id/hotel_splashbkltext5"
+                            android:layout_alignParentStart="true"
+                            android:layout_marginBottom="5dp"
+                            android:fontFamily="@font/roboto"
+                            android:text="Rp 600.000"
+                            android:textColor="@color/colorPrimary"
+                            android:textSize="18sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/hotel_splashbkltext4"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignBottom="@+id/hotel_splashbkltext3"
+                            android:layout_toEndOf="@+id/hotel_splashbkltext3"
+                            android:fontFamily="@font/roboto"
+                            android:text="/kamar/malam"
+                            android:textSize="12sp" />
+
+                        <TextView
+                            android:id="@+id/hotel_splashbkltext5"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentBottom="true"
+                            android:layout_alignStart="@+id/hotel_splashbkltext3"
+                            android:fontFamily="@font/roboto"
+                            android:text="Termasuk pajak" />
+                    </RelativeLayout>
+
+
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

@@ -1,0 +1,55 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.ajai.betravel.navdrawer_fragments.NavFeedback"
+    android:background="#ffffff">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/feedback_edittext"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:gravity="top|left"
+            android:hint="Give your feedback"
+            android:inputType="textMultiLine"
+            android:textSize="14sp" />
+
+        <EditText
+            android:id="@+id/editText"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_below="@+id/feedback_edittext"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="40dp"
+            android:hint="Email"
+            android:inputType="textEmailAddress"
+            android:textSize="14sp" />
+
+        <Button
+            android:id="@+id/send_button"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@+id/editText"
+            android:layout_below="@+id/editText"
+            android:layout_marginTop="40dp"
+            android:text="Send"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+
+</FrameLayout>

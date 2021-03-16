@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.ajai.betravel">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MenuWisata.menu_wisata"
+            android:label="@string/wisata_name"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVIY"
+                android:value=".MainActivity" />
+        </activity> <!-- MenuWisata -->
+        <activity
+            android:name=".MenuWisata.RumahSoekarno.rsoekarno"
+            android:label="@string/rsoekarno_name"
+            android:parentActivityName=".MenuWisata.menu_wisata">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MenuWisata.menu_wisata" />
+        </activity>
+        <activity
+            android:name=".MenuWisata.TuguThomasParr.thomasparr"
+            android:label="Tugu Thomas Parr"
+            android:parentActivityName=".MenuWisata.menu_wisata">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MenuWisata.menu_wisata" />
+        </activity>
+        <activity
+            android:name=".MenuWisata.BentengMarlborough.bmarlborough"
+            android:label="Benteng Marlborough"
+            android:parentActivityName=".MenuWisata.menu_wisata">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MenuWisata.menu_wisata" />
+        </activity>
+        <activity
+            android:name=".MenuWisata.PantaiPanjang.pantaipanjang"
+            android:label="Pantai Panjang"
+            android:parentActivityName=".MenuWisata.menu_wisata">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MenuWisata.menu_wisata" />
+        </activity> <!-- Menu Hotel -->
+        <activity
+            android:name=".MenuHotel.Santika.santika"
+            android:label="Hotel Santika"
+            android:parentActivityName=".MenuHotel.menu_hotel">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MenuHotel.menu_hotel" />
+        </activity>
+        <activity
+            android:name=".MenuHotel.Horizon.horizon"
+            android:label="Hotel Horizon">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MenuHotel.menu_hotel" />
+        </activity>
+        <activity
+            android:name=".MenuHotel.SinarSport.sinarsport"
+            android:label="Hotel Sinar Sport">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MenuHotel.menu_hotel" />
+        </activity>
+        <activity
+            android:name=".MenuHotel.Splash.splash"
+            android:label="Hotel Splash">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MenuHotel.menu_hotel" />
+        </activity> <!-- Menu Kuliner -->
+        <activity
+            android:name=".MenuKuliner.Pendap.pendap"
+            android:label="Pendap">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MenuKuliner.menu_kuliner" />
+        </activity>
+        <activity
+            android:name=".MenuKuliner.BagarHiu.bagarhiu"
+            android:label="Bagar Hiu">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MenuKuliner.menu_kuliner" />
+        </activity>
+        <activity
+            android:name=".MenuKuliner.GulaiKembang.gulaikembang"
+            android:label="Gulai Kembang">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MenuKuliner.menu_kuliner" />
+        </activity>
+        <activity
+            android:name=".MenuKuliner.RebungAsam.rebungasam"
+            android:label="Rebung Asam">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MenuKuliner.menu_kuliner" />
+        </activity>
+
+        <!-- Menu Oleh-oleh -->
+        <activity
+            android:name=".MenuOleh2.PerutPunai.perutpunai"
+            android:label="Perut Punai">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MenuOleh2.menu_oleh2" />
+        </activity>
+
+        <activity
+            android:name=".MenuOleh2.ManisanTerong.manisanterong"
+            android:label="Manisan Terong">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MenuOleh2.menu_oleh2"/>
+        </activity>
+
+        <activity
+            android:name=".MenuOleh2.SirupJerukKalamansi.sirupjerukkalamansi"
+            android:label="Sirup Jeruk Kalamansi">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MenuOleh2.menu_oleh2"/>
+        </activity>
+
+        <activity
+            android:name=".MenuOleh2.BatikBesurek.batikbesurek"
+            android:label="Batik Besurek">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MenuOleh2.menu_oleh2"/>
+        </activity>
+
+        <activity
+            android:name=".MenuHotel.menu_hotel"
+            android:label="@string/hotel_name"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+        <activity
+            android:name=".MenuKuliner.menu_kuliner"
+            android:label="@string/kuliner_name"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+        <activity
+            android:name=".MenuOleh2.menu_oleh2"
+            android:label="@string/oleh2_name"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

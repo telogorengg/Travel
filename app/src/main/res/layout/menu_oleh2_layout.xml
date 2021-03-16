@@ -1,0 +1,433 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#ffffff"
+    tools:context="com.example.ajai.betravel.MenuOleh2.menu_oleh2">
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/relativeLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:context="com.example.ajai.betravel.MenuOleh2.menu_oleh2" >
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/oleh2_toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="?attr/actionBarSize"
+            android:background="@color/colorPrimary"
+            android:theme="@style/AppTheme.AppBarOverlay" />
+
+    </RelativeLayout>
+
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <!-- Perut Punai -->
+            <android.support.v7.widget.CardView
+                android:id="@+id/oleh2_ppunai"
+                android:layout_width="match_parent"
+                android:layout_height="180dp"
+                android:layout_marginTop="35dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="25dp"
+                android:clickable="true"
+                android:foreground="?attr/selectableItemBackground"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="4.5dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center_horizontal|center_vertical"
+                    android:layout_margin="15dp"
+                    android:orientation="horizontal"
+                    android:weightSum="10">
+
+                    <ImageView
+                        android:id="@+id/oleh2_ppunaiimage"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_alignParentStart="true"
+                        android:layout_centerVertical="true"
+                        android:layout_weight="4"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/oleh2_perutpunai"/>
+
+                    <RelativeLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="6"
+                        android:layout_marginLeft="15dp">
+
+                        <TextView
+                            android:id="@+id/oleh2_ppunaitext1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentStart="true"
+                            android:layout_alignParentTop="true"
+                            android:text="Toko Oleh-oleh"
+                            android:textColor="@android:color/black"
+                            android:textSize="18sp" />
+
+                        <TextView
+                            android:id="@+id/oleh2_ppunaitext2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/oleh2_ppunaitext1"
+                            android:layout_alignStart="@+id/oleh2_ppunaitext1"
+                            android:layout_marginStart="1dp"
+                            android:layout_marginTop="7dp"
+                            android:fontFamily="@font/roboto"
+                            android:text="Perut Punai"
+                            android:textSize="15dp" />
+
+                        <TextView
+                            android:id="@+id/oleh2_ppunaitext4"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/oleh2_ppunaitext1"
+                            android:layout_alignStart="@+id/oleh2_ppunaitext1"
+                            android:layout_marginStart="0dp"
+                            android:layout_marginTop="48dp"
+                            android:fontFamily="@font/roboto"
+                            android:text="Sawah Lebar, Ratu Samban" />
+
+                        <TextView
+                            android:id="@+id/oleh2_ppunaitext3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_above="@+id/oleh2_ppunaitext5"
+                            android:layout_alignParentStart="true"
+                            android:layout_marginBottom="5dp"
+                            android:fontFamily="roboto"
+                            android:text="Rp 25.000"
+                            android:textColor="@color/colorPrimary"
+                            android:textSize="18sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/oleh2_ppunaitext5"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignStart="@+id/oleh2_ppunaitext3"
+                            android:layout_alignParentBottom="true"
+                            android:fontFamily="roboto"
+                            android:text="..." />
+                    </RelativeLayout>
+
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+
+            <!-- Manisan Terong -->
+            <android.support.v7.widget.CardView
+                android:id="@+id/oleh2_mterong"
+                android:layout_width="match_parent"
+                android:layout_height="180dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="25dp"
+                android:clickable="true"
+                android:foreground="?attr/selectableItemBackground"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="4.5dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center_horizontal|center_vertical"
+                    android:layout_margin="15dp"
+                    android:orientation="horizontal"
+                    android:weightSum="10">
+
+                    <ImageView
+                        android:id="@+id/oleh2_mterongimage"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_alignParentStart="true"
+                        android:layout_centerVertical="true"
+                        android:layout_weight="4"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/oleh2_manisanterong"/>
+
+                    <RelativeLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="6"
+                        android:layout_marginLeft="15dp">
+
+                        <TextView
+                            android:id="@+id/oleh2_mterongtext1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentStart="true"
+                            android:layout_alignParentTop="true"
+                            android:text="Toko Oleh-oleh"
+                            android:textColor="@android:color/black"
+                            android:textSize="18sp" />
+
+                        <TextView
+                            android:id="@+id/oleh2_mterongtext2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/oleh2_mterongtext1"
+                            android:layout_alignStart="@+id/oleh2_mterongtext1"
+                            android:layout_marginStart="1dp"
+                            android:layout_marginTop="7dp"
+                            android:fontFamily="@font/roboto"
+                            android:text="Manisan Terong"
+                            android:textSize="15dp" />
+
+                        <TextView
+                            android:id="@+id/oleh2_mterongtext4"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/oleh2_mterongtext1"
+                            android:layout_alignStart="@+id/oleh2_mterongtext1"
+                            android:layout_marginStart="0dp"
+                            android:layout_marginTop="48dp"
+                            android:fontFamily="@font/roboto"
+                            android:text="Sawah Lebar, Ratu Samban" />
+
+                        <TextView
+                            android:id="@+id/oleh2_mterongtext3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_above="@+id/oleh2_mterongtext5"
+                            android:layout_alignParentStart="true"
+                            android:layout_marginBottom="5dp"
+                            android:fontFamily="roboto"
+                            android:text="Rp 40.000"
+                            android:textColor="@color/colorPrimary"
+                            android:textSize="18sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/oleh2_mterongtext5"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignStart="@+id/oleh2_mterongtext3"
+                            android:layout_alignParentBottom="true"
+                            android:fontFamily="roboto"
+                            android:text="..." />
+                    </RelativeLayout>
+
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+
+            <!-- Sirup Jeruk Kalamansi -->
+            <android.support.v7.widget.CardView
+                android:id="@+id/oleh2_skalamansi"
+                android:layout_width="match_parent"
+                android:layout_height="180dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="25dp"
+                android:clickable="true"
+                android:foreground="?attr/selectableItemBackground"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="4.5dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center_horizontal|center_vertical"
+                    android:layout_margin="15dp"
+                    android:orientation="horizontal"
+                    android:weightSum="10">
+
+                    <ImageView
+                        android:id="@+id/oleh2_skalamansiimage"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_alignParentStart="true"
+                        android:layout_centerVertical="true"
+                        android:layout_weight="4"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/oleh2_sirupkalamansi"/>
+
+                    <RelativeLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="6"
+                        android:layout_marginLeft="15dp">
+
+                        <TextView
+                            android:id="@+id/oleh2_skalamansitext1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentStart="true"
+                            android:layout_alignParentTop="true"
+                            android:text="Toko Oleh-oleh"
+                            android:textColor="@android:color/black"
+                            android:textSize="18sp" />
+
+                        <TextView
+                            android:id="@+id/oleh2_skalamansitext2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/oleh2_skalamansitext1"
+                            android:layout_alignStart="@+id/oleh2_skalamansitext1"
+                            android:layout_marginStart="1dp"
+                            android:layout_marginTop="7dp"
+                            android:fontFamily="@font/roboto"
+                            android:text="Sirup Jeruk Kalamansi"
+                            android:textSize="15dp" />
+
+                        <TextView
+                            android:id="@+id/oleh2_skalamansitext4"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/oleh2_skalamansitext1"
+                            android:layout_alignStart="@+id/oleh2_skalamansitext1"
+                            android:layout_marginStart="0dp"
+                            android:layout_marginTop="48dp"
+                            android:fontFamily="@font/roboto"
+                            android:text="Sawah Lebar, Ratu Samban" />
+
+                        <TextView
+                            android:id="@+id/oleh2_skalamansitext3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_above="@+id/oleh2_skalamansitext5"
+                            android:layout_alignParentStart="true"
+                            android:layout_marginBottom="5dp"
+                            android:fontFamily="roboto"
+                            android:text="Rp 35.000"
+                            android:textColor="@color/colorPrimary"
+                            android:textSize="18sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/oleh2_skalamansitext5"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignStart="@+id/oleh2_skalamansitext3"
+                            android:layout_alignParentBottom="true"
+                            android:fontFamily="roboto"
+                            android:text="..." />
+                    </RelativeLayout>
+
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+
+            <!-- Batik Besurek -->
+            <android.support.v7.widget.CardView
+                android:id="@+id/oleh2_besurek"
+                android:layout_width="match_parent"
+                android:layout_height="180dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="25dp"
+                android:clickable="true"
+                android:foreground="?attr/selectableItemBackground"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="4.5dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center_vertical|center_horizontal"
+                    android:layout_margin="15dp"
+                    android:orientation="horizontal"
+                    android:weightSum="10">
+
+                    <ImageView
+                        android:id="@+id/oleh2_besurekimage"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_alignParentStart="true"
+                        android:layout_centerVertical="true"
+                        android:layout_weight="4"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/oleh2_batikbesurek">
+                    </ImageView>
+
+                    <RelativeLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="6"
+                        android:layout_marginLeft="15dp">
+
+                        <TextView
+                            android:id="@+id/oleh2_besurektext1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentStart="true"
+                            android:layout_alignParentTop="true"
+                            android:text="Toko Oleh-oleh"
+                            android:textColor="@android:color/black"
+                            android:textSize="18sp" />
+
+                        <TextView
+                            android:id="@+id/oleh2_besurektext2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/oleh2_besurektext1"
+                            android:layout_alignStart="@+id/oleh2_besurektext1"
+                            android:layout_marginStart="1dp"
+                            android:layout_marginTop="7dp"
+                            android:fontFamily="@font/roboto"
+                            android:text="Batik Besurek"
+                            android:textSize="15dp" />
+
+                        <TextView
+                            android:id="@+id/oleh2_besurektext4"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/oleh2_besurektext1"
+                            android:layout_alignStart="@+id/oleh2_besurektext1"
+                            android:layout_marginStart="0dp"
+                            android:layout_marginTop="48dp"
+                            android:fontFamily="@font/roboto"
+                            android:text="Sawah Lebar, Ratu Samban" />
+
+                        <TextView
+                            android:id="@+id/oleh2_besurektext3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_above="@+id/oleh2_besurektext5"
+                            android:layout_alignParentStart="true"
+                            android:layout_marginBottom="5dp"
+                            android:fontFamily="roboto"
+                            android:text="Rp 100.000"
+                            android:textColor="@color/colorPrimary"
+                            android:textSize="18sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/oleh2_besurektext5"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignStart="@+id/oleh2_besurektext3"
+                            android:layout_alignParentBottom="true"
+                            android:fontFamily="roboto"
+                            android:text="..." />
+
+                    </RelativeLayout>
+
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

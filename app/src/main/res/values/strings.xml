@@ -1,0 +1,55 @@
+<resources>
+    <string name="app_name">BeTravel</string>
+    <string name="wisata_name">Wisata</string>
+    <string name="hotel_name">Hotel</string>
+    <string name="kuliner_name">Kuliner</string>
+    <string name="oleh2_name">Oleh-oleh</string>
+
+    <!-- DESKRIPSI -->
+
+    <!-- Menu Wisata -->
+    <string name="rsoekarno_name">Rumah Pengasingan Soekarno</string>
+    <string name="deskripsi_rsoekarno">Rumah ini terletak di tengah Kota Bengkulu, tepatnya di Jalan Soekarno Hatta Kelurahan Anggut Atas, Kecamatan Gading Cempaka. Awalnya, rumah tersebut adalah milik seorang pedagang Tionghoa yang bernama Lion Bwe Seng yang disewa oleh orang Belanda untuk menempatkan Soekarno selama diasingkan di Bengkulu. Soekarno menempati rumah itu pada 1938-1942. Di rumah ini terdapat barang-barang peninggalan Soekarno. Ada ranjang besi yang pernah dipakai Soekarno dan keluarganya, koleksi buku yang mayoritas berbahasa Belanda serta seragam grup tonil Monte Carlo asuhan Soekarno semasa di Bengkulu.</string>
+    <string name="deskripsi_thomasparr">Tugu Thomas Parr adalah sebuah monumen yang terletak di Kota Bengkulu, Bengkulu, Indonesia dan didedikasikan kepada Thomas Parr, Residen Inggris di Bengkulu yang terbunuh pada 1807. Dibangun setahun setelah kematiannya, bangunan tersebut dianggap sebagai cagar budaya. Tempat tersebut aslinya berada di dekat bangunan-bangunan yang dibangun pemerintahan Perusahaan Hindia Timur dan dewa pemerintahan Inggris. Namun, wilayah tersebut kemudian menjadi tempat komersial.</string>
+    <string name="deskripsi_bentengmarlborough">Benteng Marlborough (Inggris:Fort Marlborough) adalah benteng peninggalan Inggris di kota Bengkulu. Benteng ini didirikan oleh East India Company (EIC) tahun 1714-1719 di bawah pimpinan gubernur Joseph Callet sebagai benteng pertahanan Inggris. Benteng ini berada di tanah seluas 44.000 meter2; Ukuran fisiknya sekitar 240 x 170 m. Ketinggian dinding bervariasi dari 8 sampai 8.50 meter, dengan ketebalan 1.85 sampai 3 meter.</string>
+    <string name="deskripsi_pantaipanjang">Pantai Panjang merupakan pantai yang berada di Provinsi Bengkulu. Pantai ini memiliki garis pantai yang mencapai 7 km dan lebar pantai sekitar 500 meter.Pantai Panjang sering dimanfaatkan oleh wisatawan dan masyarakat sekitar. Di sana terdapat Sport Center sehingga masyarakat dapat melakukan kegiatan olahraga seperti voly pantai, berjalan, dan berselancar. Pantai Panjang yang ada di Bengkulu ini mempunyai banyak fasilitas diantaranya terdapat cafe, penginapan, area bermain, pusat perbelanjaan, dan tempat olahraga. </string>
+
+    <!-- Menu Hotel -->
+    <string name="deskripsi_santika">Hotel Santika Bengkulu adalah sebuah hotel yang elegan di jantung kota penuh sejarah di Sumatera. Hotel bintang 3 ini adalah basis ideal untuk menjelajahi kota ini jauh lebih menarik. Jarak tempuh ke Pantai Panjang hanya beberapa menit saja, melihat hamparan luas Samudra Hindia.</string>
+    <string name="deskripsi_horizon">Grage Horizon Hotel Bengkulu terletak di sisi Pantai Panjang di Kota Bengkulu dan dekat dengan pusat kota. Lokasi dari Grage Horizon Hotel Bengkulu sangat strategis dan dapat digunakan sebagai tempat beristirahat, berbisnis, atau berlibur. Terdapat beberapa obyek wisata yang dekat dengan Grage Horizon Hotel Bengkulu seperti Rumah Pengasingan Soekarno, Benteng Malborough, dan Pantai Panjang Bengkulu.</string>
+    <string name="deskripsi_sinarsport">Sinar Sport Hotel adalah hotel dengan desain yang unik bertemakan olahraga. Hotel ini terletak sekitar 35 menit dari Bandara Fatmawati Soekarno dan 10 menit dari Pantai Panjang yang memiliki garis pantai pasir putih halus yang berjarak 7 kilometer. Sinar Sport Hotel menawarkan akomodasi dengan akses Wi-Fi gratis dan sebuah restoran di Bengkulu.</string>
+    <string name="deskripsi_splash">Hotel Splash hadir di Bengkulu sebagai Hotel Bintang 3 yang memiliki konsep Smart Hotel (standard pelayanan se-level dengan Hotel Bintang 4). Smart sendiri memiliki kecenderungan dengan sesuatu yang praktis, cepat, simpel tetapi tetap profesional sebagai Hospitality Industry. Dengan keramahan pelayanan dan kepuasan pelanggan maka Splash Hotel ikut berkontribusi membantu meningkatkan potensi pariwisata di Provinsi Bengkulu melalui peningkatan jumlah kedatangan tamu atau pengunjung.</string>
+
+    <!-- Menu Kuliner -->
+    <string name="deskripsi_pendap">Pendap merupakan salah satu makanan khas di Provinsi Bengkulu. Pendap atau biasa disebut ikan pais ini mampu bersaing dengan sejumlah kuliner lainnya.  Pendap memiliki cita rasa yang khas yang dapat menggugah selera makan terutama aroma khas daun talas sebagai pembungkusnya. Pendap seringkali menjadi makanan favorit para wisatawan dari dalam sumatera maupun luar sumatera. Pendap memiliki kesamaan dengan pepes ikan terutama cara pembuatannya, perbedaannya ialah bahan yang digunakan serta daun talas sebagai pembungkusnya dan diikat dengan tali rafia.</string>
+    <string name="deskripsi_bagarhiu">Bagar Hiu, dengar namanya saja sudah menakutkan. Makanan khas Bengkulu satu ini bebahan dasar ikan hiu, walaupun menakutkan tetapi enak sekali cita rasanya setelah diolah menjadi makanan. Bagar Ikan Hiu adalah salah satu makanan Khas Kuliner daerah Bengkulu. Adapun yang menjadi bahan pokok masakan ini adalah Ikan Hiu yang oleh masyarakat disebut Ikan Hiu Punai. Masakan khas yang satu ini menjadi salah satu menu yang layak dicoba karena kelezatan dan keunikannya.</string>
+    <string name="deskripsi_gulaikembang">Gulai Kembang merupakan gulai khas Kabupaten Bengkulu Selatan yang berbahan dasar batang talas atau keladi tertentu yang tentunya tidak beracun. Diolah sedemikian rupa membuat rasanya sangatlah sedap dan cocok sebagai lauk untuk dimakan bersama nasi hangat tentunya. Bumbu yang wajib dalam memasak gulai kembang ini cukup banyak seperti, santan, daun salam, talas yang terdiri dari batang dan daunnya yang sudah direbus lalu diiris kasar, garam, gula, sebagai bahan pelengkap dapat ditambahkan dengan ikan teri dan tentunya bumbu dapur lainnya.</string>
+    <string name="deskripsi_rebungasam">Rebung adalah batang tunas bambu muda yang biasa digunakan masyarakat lokal untuk dimasak menjadi sayur. Rebung ini bahkan juga menjadi salah satu jenis sayuran yang cukup dikenal di beberapa daerah di Indonesia. Karakteristik rasanya yang unik dan harganya yang relatif murah membuat bahan rebung cukup disukai. Rebung Asam merupakan salah satu makanan khas Bengkulu. Masakan ini dicampur dengan bahan dasar ikan laut yang akan membuat makanan semakin enak dan nikmat.</string>
+
+    <!-- Menu Oleh-oleh -->
+    <string name="deskripsi_perutpunai">Oleh oleh makanan khas Bengkulu yang satu ini cukup unik dari segi nama panggilannya yaitu Perut Punai. Dinamai demikian karena kue tersebut menyerupai isi perut burung punai yang melilit-lilit serta melingkar. Komposisi dari kue perut punai ini adalah tepung terigu yang di gonseng atau disangrai terlebih dulu sebelum dijadikan adonan. Ada dua macam rasa dari kue unik satu ini, yakni gurih dan manis. Harga yang dipatok untuk setiap kemasan rata-rata berkisar Rp10.000 per bungkus yang dapat Anda temukan di jejeran toko oleh-oleh sepanjang jalan Soekarno-Hatta.</string>
+    <string name="deskripsi_manisanterong">Jika umumnya menikmati terong itu digoreng atau disayur, masyarakat Bengkulu menjadikannya bahan untuk dibuat manisan. Bahan dasar membuat manisan tersebut adalah terong yang berwarna ungu serta gula pasir. Ada yang mengatakan kalau manisan terong ini rasanya menyerupai buah kurma, kenyal dan manis. Karena daya tahannya yang lama, manisan terong ini cocok dijadikan oleh-oleh saat Anda hendak pulang. Banyak toko oleh-oleh khas Bengkulu yang menyediakan kurma khas Bengkulu ini dengan harga mulai dari Rp8.000 per kemasan.</string>
+    <string name="deskripsi_sirupjerukkalamansi">Selain makanan, Bengkulu juga memiliki minuman yang khas dan menyegarkan tentunya. Ada sirup kalamansi yang berasal dari sari jeruk kalamansi dicampur dengan gula pasir sebagai pemanis. Uniknya, sirup ini bisa disajikan baik dalam keadaan hangat atau pun dingin. Minuman yang kaya akan vitamin C ini sangat bermanfaat untuk kesehatan seperti menjaga daya tahan tubuh, memperlancar perdaran darah, dan lainnya. Terbukti rasanya yang menyegarkan, sirup kalamansi ini juga menyehatkan.</string>
+    <string name="deskripsi_batikbesurek">Bengkulu juga memiliki batik sendiri, yaitu batik besurek dengan ciri khas motif kaligrafi yang dipadukan dengan motif lain seperti rembulan, relung paku, bunga rafflesia, dan burung kuau. Kain batik ini dibuat dengan tidak menggunakan mesin cetakan alias asli tulis tangan sehingga kualitasnya pun mampu bersaing dengan batik daerah lain. Batik Besurek cocok dijadikan sebagai bahan sarung, bawahan hingga atasan pakaian. Selain makanan dan minuman khas, batik besurek bisa juga dijadikan pilihan oleh-oleh khas Bengkulu.</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="contactus_name">Contact Us</string>
+    <string name="feedback_name">Feedback</string>
+    <string name="help_name">Help</string>
+    <string name="about_name">About</string>
+    <string name="share_name">Share</string>
+    <string name="send_name">Send</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_tab">Tab</string>
+    <string name="tab_text_1">Tab 1</string>
+    <string name="tab_text_2">Tab 2</string>
+    <string name="tab_text_3">Tab 3</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+</resources>

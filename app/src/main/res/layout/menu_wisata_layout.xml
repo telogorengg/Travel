@@ -1,0 +1,424 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#ffffff"
+    tools:context="com.example.ajai.betravel.MenuWisata.menu_wisata">
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/relativeLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:context="com.example.ajai.betravel.MenuHotel.menu_hotel" >
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/wisata_toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="?attr/actionBarSize"
+            android:background="@color/colorPrimary"
+            android:theme="@style/AppTheme.AppBarOverlay" />
+    </RelativeLayout>
+
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <!-- Rumah Soekarno -->
+            <android.support.v7.widget.CardView
+                android:id="@+id/wisata_soekarno"
+                android:layout_width="match_parent"
+                android:layout_height="180dp"
+                android:layout_marginTop="25dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="25dp"
+                android:clickable="true"
+                android:foreground="?attr/selectableItemBackground"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="4.5dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center_horizontal|center_vertical"
+                    android:layout_margin="15dp"
+                    android:orientation="horizontal"
+                    android:weightSum="10">
+
+                    <ImageView
+                        android:id="@+id/wisata__soekarnoimage"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="4"
+                        android:layout_alignParentStart="true"
+                        android:layout_centerVertical="true"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/wisata_rmhsoekarno" />
+
+                    <RelativeLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="6"
+                        android:layout_marginLeft="15dp">
+
+                        <TextView
+                            android:id="@+id/wisata__soekarnotext1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentStart="true"
+                            android:layout_alignParentTop="true"
+                            android:fontFamily="@font/roboto"
+                            android:text="Rumah Soekarno"
+                            android:textColor="@android:color/black"
+                            android:textSize="18sp" />
+
+                        <TextView
+                            android:id="@+id/wisata__soekarnotext2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/wisata__soekarnotext1"
+                            android:layout_alignStart="@+id/wisata__soekarnotext1"
+                            android:layout_marginTop="12dp"
+                            android:fontFamily="@font/roboto"
+                            android:text="Anggut Atas, Ratu Samban" />
+
+                        <TextView
+                            android:id="@+id/wisata__soekarnotext3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_above="@+id/wisata__soekarnotext5"
+                            android:layout_alignParentStart="true"
+                            android:layout_marginBottom="5dp"
+                            android:fontFamily="@font/roboto"
+                            android:text="Rp 0"
+                            android:textColor="@color/colorPrimary"
+                            android:textSize="18sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/wisata__soekarnotext4"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignBottom="@+id/wisata__soekarnotext3"
+                            android:layout_toEndOf="@+id/wisata__soekarnotext3"
+                            android:fontFamily="@font/roboto"
+                            android:text="..."
+                            android:textSize="12sp" />
+
+                        <TextView
+                            android:id="@+id/wisata__soekarnotext5"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentBottom="true"
+                            android:layout_alignStart="@+id/wisata__soekarnotext3"
+                            android:fontFamily="@font/roboto"
+                            android:text="..." />
+                    </RelativeLayout>
+
+
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+
+            <!-- Tugu Thomas Parr -->
+            <android.support.v7.widget.CardView
+                android:id="@+id/wisata_thomasparr"
+                android:layout_width="match_parent"
+                android:layout_height="180dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="25dp"
+                android:clickable="true"
+                android:foreground="?attr/selectableItemBackground"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="4.5dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center_horizontal|center_vertical"
+                    android:layout_margin="15dp"
+                    android:orientation="horizontal"
+                    android:weightSum="10">
+
+                    <ImageView
+                        android:id="@+id/wisata_thomasparrimage"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="4"
+                        android:layout_alignParentStart="true"
+                        android:layout_centerVertical="true"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/wisata_tuguthomasparr" />
+
+                    <RelativeLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="6"
+                        android:layout_marginLeft="15dp">
+
+                        <TextView
+                            android:id="@+id/wisata_thomasparrtext1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentStart="true"
+                            android:layout_alignParentTop="true"
+                            android:fontFamily="@font/roboto"
+                            android:text="Tugu Thomas Parr"
+                            android:textColor="@android:color/black"
+                            android:textSize="18sp" />
+
+                        <TextView
+                            android:id="@+id/wisata_thomasparrtext2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/wisata_thomasparrtext1"
+                            android:layout_alignStart="@+id/wisata_thomasparrtext1"
+                            android:layout_marginTop="12dp"
+                            android:fontFamily="@font/roboto"
+                            android:text="Malabero, Teluk Segara" />
+
+                        <TextView
+                            android:id="@+id/wisata_thomasparrtext3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_above="@+id/wisata_thomasparrtext5"
+                            android:layout_alignParentStart="true"
+                            android:layout_marginBottom="5dp"
+                            android:fontFamily="@font/roboto"
+                            android:text="Rp 0"
+                            android:textColor="@color/colorPrimary"
+                            android:textSize="18sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/wisata_thomasparrtext4"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignBottom="@+id/wisata_thomasparrtext3"
+                            android:layout_toEndOf="@+id/wisata_thomasparrtext3"
+                            android:fontFamily="@font/roboto"
+                            android:text="..."
+                            android:textSize="12sp" />
+
+                        <TextView
+                            android:id="@+id/wisata_thomasparrtext5"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentBottom="true"
+                            android:layout_alignStart="@+id/wisata_thomasparrtext3"
+                            android:fontFamily="@font/roboto"
+                            android:text="..." />
+                    </RelativeLayout>
+
+
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+
+            <!-- Benteng Marlborough-->
+            <android.support.v7.widget.CardView
+                android:id="@+id/wisata_marlborough"
+                android:layout_width="match_parent"
+                android:layout_height="180dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="25dp"
+                android:clickable="true"
+                android:foreground="?attr/selectableItemBackground"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="4.5dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center_horizontal|center_vertical"
+                    android:layout_margin="15dp"
+                    android:orientation="horizontal"
+                    android:weightSum="10">
+
+                    <ImageView
+                        android:id="@+id/wisata_marlboroughimage"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="4"
+                        android:layout_alignParentStart="true"
+                        android:layout_centerVertical="true"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/wisata_benteng" />
+
+                    <RelativeLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="6"
+                        android:layout_marginLeft="15dp">
+
+                        <TextView
+                            android:id="@+id/wisata_marlboroughtext1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentStart="true"
+                            android:layout_alignParentTop="true"
+                            android:fontFamily="@font/roboto"
+                            android:text="Benteng Marlborough"
+                            android:textColor="@android:color/black"
+                            android:textSize="18sp" />
+
+                        <TextView
+                            android:id="@+id/wisata_marlboroughtext2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/wisata_marlboroughtext1"
+                            android:layout_alignStart="@+id/wisata_marlboroughtext1"
+                            android:layout_marginTop="12dp"
+                            android:fontFamily="@font/roboto"
+                            android:text="Kebun Keling, Teluk Segara" />
+
+                        <TextView
+                            android:id="@+id/wisata_marlboroughtext3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_above="@+id/wisata_marlboroughtext5"
+                            android:layout_alignParentStart="true"
+                            android:layout_marginBottom="5dp"
+                            android:fontFamily="@font/roboto"
+                            android:text="Rp 0"
+                            android:textColor="@color/colorPrimary"
+                            android:textSize="18sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/wisata_marlboroughtext4"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignBottom="@+id/wisata_marlboroughtext3"
+                            android:layout_toEndOf="@+id/wisata_marlboroughtext3"
+                            android:fontFamily="@font/roboto"
+                            android:text="..."
+                            android:textSize="12sp" />
+
+                        <TextView
+                            android:id="@+id/wisata_marlboroughtext5"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentBottom="true"
+                            android:layout_alignStart="@+id/wisata_marlboroughtext3"
+                            android:fontFamily="@font/roboto"
+                            android:text="..." />
+                    </RelativeLayout>
+
+
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+
+            <!-- Pantai Panjang -->
+            <android.support.v7.widget.CardView
+                android:id="@+id/wisata_ppanjang"
+                android:layout_width="match_parent"
+                android:layout_height="180dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="25dp"
+                android:clickable="true"
+                android:foreground="?attr/selectableItemBackground"
+                app:cardCornerRadius="8dp"
+                app:cardElevation="4.5dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center_horizontal|center_vertical"
+                    android:layout_margin="15dp"
+                    android:orientation="horizontal"
+                    android:weightSum="10">
+
+                    <ImageView
+                        android:id="@+id/wisata_ppanjangimage"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="4"
+                        android:layout_alignParentStart="true"
+                        android:layout_centerVertical="true"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/wisata_pantaipanjang" />
+
+                    <RelativeLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="6"
+                        android:layout_marginLeft="15dp">
+
+                        <TextView
+                            android:id="@+id/wisata_ppanjangtext1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentStart="true"
+                            android:layout_alignParentTop="true"
+                            android:fontFamily="@font/roboto"
+                            android:text="Pantai Panjang"
+                            android:textColor="@android:color/black"
+                            android:textSize="18sp" />
+
+                        <TextView
+                            android:id="@+id/wisata_ppanjangtext2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/wisata_ppanjangtext1"
+                            android:layout_alignStart="@+id/wisata_ppanjangtext1"
+                            android:layout_marginTop="12dp"
+                            android:fontFamily="@font/roboto"
+                            android:text="Kec. Ratu Agung, Kec. Teluk Segara, Kec. Ratu Samban" />
+
+                        <TextView
+                            android:id="@+id/wisata_ppanjangtext3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_above="@+id/wisata_ppanjangtext5"
+                            android:layout_alignParentStart="true"
+                            android:layout_marginBottom="5dp"
+                            android:fontFamily="@font/roboto"
+                            android:text="Rp 0"
+                            android:textColor="@color/colorPrimary"
+                            android:textSize="18sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/wisata_ppanjangtext4"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignBottom="@+id/wisata_ppanjangtext3"
+                            android:layout_toEndOf="@+id/wisata_ppanjangtext3"
+                            android:fontFamily="@font/roboto"
+                            android:text="..."
+                            android:textSize="12sp" />
+
+                        <TextView
+                            android:id="@+id/wisata_ppanjangtext5"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentBottom="true"
+                            android:layout_alignStart="@+id/wisata_ppanjangtext3"
+                            android:fontFamily="@font/roboto"
+                            android:text="..." />
+                    </RelativeLayout>
+
+
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
